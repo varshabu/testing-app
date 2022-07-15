@@ -1,0 +1,12 @@
+diff --git a/node_modules/@varshabu/react-component-library/dist/index.d.ts b/node_modules/@varshabu/react-component-library/dist/index.d.ts
+index b64bf35..19bac1a 100644
+--- a/node_modules/@varshabu/react-component-library/dist/index.d.ts
++++ b/node_modules/@varshabu/react-component-library/dist/index.d.ts
+@@ -1,6 +1,7 @@
+ /// <reference types="react" />
+ interface ButtonProps {
+     label: string;
++    disabled: boolean;
+ }
+ declare const Button: (props: ButtonProps) => JSX.Element;
+ 
